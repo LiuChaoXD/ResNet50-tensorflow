@@ -1,5 +1,5 @@
 import tensorflow as tf
-from resnet50.ops import res_block_3_layer, bn, conv_layer, maxpool, avgpool, fc_layer
+from ops import res_block_3_layer, bn, conv_layer, maxpool, avgpool, fc_layer
 import numpy as np
 
 
