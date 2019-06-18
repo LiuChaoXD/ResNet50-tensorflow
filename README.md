@@ -1,6 +1,7 @@
 # ResNet50-tensorflow
-This model build with python 3.6, and tensorflow 1.13
 Build ResNet50 with tensorflow, load the pretrained parameters' weights 
+
+This model build with python 3.6, and tensorflow 1.13
 
 # Some path settings in train.py
 path_train = "path/to/training set/" 
