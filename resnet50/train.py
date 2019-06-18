@@ -5,16 +5,20 @@ from resnet50.readtxt import read_data
 import cv2
 import os
 
-#yos.environ["CUDA_VISIBLE_DEVICES"] = "0"
+#os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 batchsize = 128
 Epoch = 2000
 label_num = 45
 
-
+# the path of training set
 path_train = ""
+# the path of testing set
 path_test = ""
+# the path of pretrained resnet50's weights
 pretrained_weights = "D:/PycharmProjects/learning/resnet50/pretrained_weights/"
+# the path of trained resnet50's weights
 saved_weights = "D:/PycharmProjects/learning/resnet50/saved_weights/"
+# the path of saved model
 saved_model = "D:/PycharmProjects/learning/resnet50/saved_model/"
 
 
