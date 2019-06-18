@@ -4,9 +4,13 @@ Build ResNet50 with tensorflow, load the pretrained parameters' weights
 
 # Some path settings in train.py
 path_train = "path/to/training set/" 
+
 path_test = "path/to/testing set/"
+
 pretrained_weights = "path/to/pretrained-resent50's weights/"
+
 saved_weights = "path/to/trained-resent50's weights"
+
 saved_model = "path/to/saved_model/"
 
 # How to run
