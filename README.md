@@ -9,7 +9,7 @@ path_test = "path/to/testing set/"
 
 pretrained_weights = "path/to/pretrained-resent50's weights/"
 
-saved_weights = "path/to/trained-resent50's weights"
+saved_weights = "path/to/trained-resent50's weights/"
 
 saved_model = "path/to/saved_model/"
 
